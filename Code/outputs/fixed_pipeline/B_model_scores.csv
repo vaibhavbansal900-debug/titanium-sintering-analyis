@@ -1,0 +1,25 @@
+target,scheme,model,R2,MAE_ln,factor_err
+ln(tau_s),random 5-fold,RidgeCV,0.659,0.423,1.53
+ln(tau_s),random 5-fold,GPR,0.708,0.402,1.49
+ln(tau_s),random 5-fold,RandomForest,0.743,0.375,1.45
+ln(tau_s),random 5-fold,GradBoost,0.62,0.472,1.6
+ln(tau_s),leave-one-material-out,RidgeCV,0.62,0.455,1.58
+ln(tau_s),leave-one-material-out,GPR,0.652,0.435,1.54
+ln(tau_s),leave-one-material-out,RandomForest,0.479,0.544,1.72
+ln(tau_s),leave-one-material-out,GradBoost,0.491,0.494,1.64
+ln(t50_s),random 5-fold,RidgeCV,0.506,0.501,1.65
+ln(t50_s),random 5-fold,GPR,0.526,0.515,1.67
+ln(t50_s),random 5-fold,RandomForest,0.625,0.457,1.58
+ln(t50_s),random 5-fold,GradBoost,0.449,0.554,1.74
+ln(t50_s),leave-one-material-out,RidgeCV,0.434,0.551,1.73
+ln(t50_s),leave-one-material-out,GPR,0.463,0.561,1.75
+ln(t50_s),leave-one-material-out,RandomForest,0.377,0.583,1.79
+ln(t50_s),leave-one-material-out,GradBoost,0.305,0.599,1.82
+ln(t90_s),random 5-fold,RidgeCV,0.678,0.437,1.55
+ln(t90_s),random 5-fold,GPR,0.701,0.422,1.52
+ln(t90_s),random 5-fold,RandomForest,0.529,0.531,1.7
+ln(t90_s),random 5-fold,GradBoost,0.468,0.536,1.71
+ln(t90_s),leave-one-material-out,RidgeCV,0.597,0.517,1.68
+ln(t90_s),leave-one-material-out,GPR,0.586,0.515,1.67
+ln(t90_s),leave-one-material-out,RandomForest,0.098,0.76,2.14
+ln(t90_s),leave-one-material-out,GradBoost,0.374,0.58,1.79

@@ -1,0 +1,13 @@
+test,model,median_mm_err_pct,mean_mm_err_pct,median_shape_rmse_pct,runs_within_20pct
+leave one RUN out,parametric_ridgecv,14.7,21.3,7.8,20 of 29
+leave one RUN out,parametric_gpr,12.8,20.5,7.2,19 of 29
+leave one RUN out,pca_ridgecv,16.2,25.0,6.2,19 of 29
+leave one RUN out,direct_extratrees,15.9,21.4,7.3,18 of 29
+leave one RUN out,baseline: mean curve (same die),15.7,24.5,6.1,19 of 29
+leave one RUN out,baseline: nearest run,15.3,23.2,8.4,18 of 29
+leave one MATERIAL out,parametric_ridgecv,13.4,21.1,8.0,20 of 29
+leave one MATERIAL out,parametric_gpr,12.8,21.2,8.2,18 of 29
+leave one MATERIAL out,pca_ridgecv,14.9,24.9,7.7,19 of 29
+leave one MATERIAL out,direct_extratrees,26.5,54.3,10.5,13 of 29
+leave one MATERIAL out,baseline: mean curve (same die),14.2,24.2,6.9,19 of 29
+leave one MATERIAL out,baseline: nearest run,18.9,26.9,8.5,16 of 29

@@ -1,0 +1,5 @@
+subset,n_runs,n_rows,T_span_K,Q_kJ_mol,Q_ci_lo,Q_ci_hi,n_stress,n_ci_lo,n_ci_hi,note
+D1: All clean runs,29,116,147.0,72.3,-61.2,243.8,0.7,0.02,1.3,
+D2: Ti-20TiB ROUND_20 controlled series,8,32,107.3,119.8,-232.0,274.5,0.65,-0.06,1.34,
+D3: 1350 C FLAT Ti-TiB bars,9,36,25.0,,,,0.35,-1.36,2.04,T_span <= 50 K: Q suppressed
+D4: Non-TiB alloys,8,32,133.0,263.8,-911.0,441.9,1.57,-7.76,6.39,
